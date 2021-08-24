@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(4, 100, 145);
+}
+
+a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+.container h1{
+    font-size: 2em;
+    color: rgb(247, 247, 247);
+    margin-bottom: 20px;
+    
+}
+
+.container .form-control{
+    display: flex;
+    flex-direction:column-reverse;
+
+}
+
+.container label{
+    color: rgb(248, 248, 248);
+    margin-bottom: 2px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.form-control input[type = "text"]{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(248, 248, 248);
+}
+.form-control input[type = "text"]:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-control{
+    margin-bottom: 40px;
+}
+
+.btn{
+    padding: 1rem 8rem;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    background-color: lightblue;
+    border: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.text{
+    margin: 30px 0;
+    color: aliceblue;
+}
